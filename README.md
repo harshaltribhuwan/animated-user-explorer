@@ -1,4 +1,4 @@
-# 🔍 Animated User Explorer – User Finder with Flip Card Animation
+# 🔍 User Finder with Flip Card Animation
 
 Animated-user-explorer is a beautifully designed, mobile-responsive user search app built with **React**, **Framer Motion**, and **Vite**. It fetches users from a public API and presents them in sleek flip-style cards with a detailed view on flip.
 
