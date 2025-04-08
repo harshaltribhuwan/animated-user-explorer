@@ -4,7 +4,7 @@ import UserList from "./components/UserList";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/animated-user-explorer">
       <Routes>
         <Route path="/" element={<UserList />} />
         <Route path="/user/:id" element={<UserList />} />
