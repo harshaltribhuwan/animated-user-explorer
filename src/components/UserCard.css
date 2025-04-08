@@ -1,0 +1,76 @@
+.card {
+  cursor: pointer;
+  width: 100%;
+  max-width: 320px;
+  height: 380px;
+  perspective: 1200px;
+  font-family: "Inter", sans-serif;
+  margin: auto;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.card-front {
+  background: linear-gradient(to bottom right, #f8f9fa, #fff);
+}
+
+.card-front img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-front h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin: 0.2rem 0;
+}
+
+.card-front p {
+  font-size: 14px;
+  color: #666;
+  margin: 0.1rem 0;
+}
+
+.card-back {
+  background-color: #ffffff;
+  transform: rotateY(180deg);
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-y: auto;
+  box-shadow: inset 0 0 0 1px #e6e6e6;
+}
