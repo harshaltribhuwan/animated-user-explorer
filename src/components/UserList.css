@@ -30,3 +30,12 @@
   gap: 3rem;
   padding: 3rem 1rem;
 }
+
+@media (max-width: 480px) {
+  .search-input {
+    width: 90%;
+    max-width: none;
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+}
