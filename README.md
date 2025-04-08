@@ -1,12 +1,27 @@
-# React + Vite
+# 🔍 Animated User Explorer – User Finder with Flip Card Animation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Animated-user-explorer is a beautifully designed, mobile-responsive user search app built with **React**, **Framer Motion**, and **Vite**. It fetches users from a public API and presents them in sleek flip-style cards with a detailed view on flip.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Instant search with live filtering
+- 🎴 Smooth flip card animation (Framer Motion)
+- 📱 Fully responsive UI (mobile-friendly)
+- 💅 Clean and minimal design with soft blue accents
+- 🔄 Powered by Vite for blazing fast development
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Framer Motion
+- Vite
+- CSS Modules / SCSS (optional)
+- DummyJSON API
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/harshaltribhuwan/animated-user-explorer.git
+cd animated-user-explorer
+npm install
+npm run dev
